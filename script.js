@@ -73,7 +73,7 @@
         btnAdd.disabled = true
         const task = document.getElementById(`task${id_change_task}`)
         const btnSave = document.createElement('button')
-        btnSave.innerHTML = `&#10004;`
+        btnSave.innerHTML = `Сохранить`
         btnSave.classList.add('btn_save_change')
         btnSave.setAttribute('id', id_change_task)
         task.appendChild(btnSave);
